@@ -85,17 +85,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-
-  twitter: {
-    card: "summary_large_image",
-    site: "@nextfullstack",
-    creator: "@chimsaina",
-    title: "Car Selling | Next Fullstack Gen1",
-    description:
-      "A modern marketplace to buy and sell luxury cars in Cambodia.",
-    images:
-      "https://i.pinimg.com/736x/26/0b/bc/260bbc98f8ba433aeeb00425f1afd15d.jpg",
-  },
 };
 
 
