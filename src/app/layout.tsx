@@ -86,16 +86,16 @@ export const metadata: Metadata = {
     ],
   },
 
-  twitter: {
-    card: "summary_large_image",
-    site: "@nextfullstack",
-    creator: "@chimsaina",
-    title: "Car Selling | Next Fullstack Gen1",
-    description:
-      "A modern marketplace to buy and sell luxury cars in Cambodia.",
-    images:
-      "https://i.pinimg.com/736x/46/a0/bf/46a0bf7b9d1e34d9bba263baab7c0f43.jpg",
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   site: "@nextfullstack",
+  //   creator: "@chimsaina",
+  //   title: "Car Selling | Next Fullstack Gen1",
+  //   description:
+  //     "A modern marketplace to buy and sell luxury cars in Cambodia.",
+  //   images:
+  //     "https://i.pinimg.com/736x/46/a0/bf/46a0bf7b9d1e34d9bba263baab7c0f43.jpg",
+  // },
 };
 
 
