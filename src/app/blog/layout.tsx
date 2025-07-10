@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://i.pinimg.com/1200x/8b/dc/9e/8bdc9e6aedf0d80f68f90717d8af57a0.jpg",
+        url: "https://i.pinimg.com/1200x/dd/1c/1d/dd1c1d7f1ffa8e113ef8ff201106321a.jpg",
         width: 1200,
         height: 630,
         alt: "Luxury car in showroom",
