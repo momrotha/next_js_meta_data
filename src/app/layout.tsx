@@ -10,7 +10,6 @@ import { NavbarComponent } from "@/components/(landing)/nav/NavbarComponent";
 
 
 export const metadata: Metadata = {
-  /* ——— General Information ——— */
   title: {
     default: "Car Selling | Next Fullstack Gen1",
     template: "%s | Car Selling",
@@ -35,7 +34,6 @@ export const metadata: Metadata = {
   publisher: "Cambo Cloth Co., Ltd.",
   referrer: "origin-when-cross-origin",
 
-  /* ——— Language and Alternate Links ——— */
   alternates: {
     canonical: "https://next-fullstack-gen1.vercel.app",
     languages: {
@@ -43,8 +41,6 @@ export const metadata: Metadata = {
       "km-KH": "/km",
     },
   },
-
-  /* ——— Mobile and App Appearance ——— */
   viewport: { width: "device-width", initialScale: 1 },
   themeColor: "#ffffff",
   icons: {
@@ -60,7 +56,6 @@ export const metadata: Metadata = {
   },
   formatDetection: { email: false, address: false, telephone: false },
 
-  /* ——— Crawler Instructions ——— */
   robots: {
     index: true,
     follow: true,
@@ -73,7 +68,6 @@ export const metadata: Metadata = {
     },
   },
 
-  /* ——— Open Graph (Facebook, LinkedIn, etc.) ——— */
   openGraph: {
     title: "Car Selling Platform",
     description:
@@ -92,7 +86,6 @@ export const metadata: Metadata = {
     ],
   },
 
-  /* ——— Twitter Card ——— */
   twitter: {
     card: "summary_large_image",
     site: "@nextfullstack",
@@ -104,8 +97,6 @@ export const metadata: Metadata = {
       "https://i.pinimg.com/736x/46/a0/bf/46a0bf7b9d1e34d9bba263baab7c0f43.jpg",
   },
 };
-
-
 
 
 
