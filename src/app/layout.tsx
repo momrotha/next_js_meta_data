@@ -11,7 +11,7 @@ import { NavbarComponent } from "@/components/(landing)/nav/NavbarComponent";
 
 export const metadata: Metadata = {
   title: {
-    default: "Car Selling | Next Fullstack Gen1",
+    default: "Car Selling | Home Page",
     template: "%s | Car Selling",
   },
   description:
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Car Selling Platform",
+    title: "Home page of Car Selling Platform",
     description:
       "Experience a trusted platform for buying and selling luxury vehicles in Cambodia.",
     url: "https://next-fullstack-gen1.vercel.app",
