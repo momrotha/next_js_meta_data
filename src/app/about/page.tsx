@@ -1,12 +1,9 @@
 
-import DisplayProductComponent from '@/components/products/DisplayProductComponent'
-import FetchCar from '@/lib/api'
-import { CarData } from '@/lib/car-type'
 import React from 'react'
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: {
-    default: "Car Selling | Product Page",
+    default: "Car Selling | About Page",
     template: "%s | Car Selling",
   },
   description:
@@ -63,7 +60,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Product page of Car Selling Platform",
+    title: "About page of Car Selling Platform",
     description:
       "Experience a trusted platform for buying and selling luxury vehicles in Cambodia.",
     url: "https://next-fullstack-gen1.vercel.app",
@@ -72,7 +69,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://i.pinimg.com/736x/dc/a9/55/dca9550be7d2b948777470b6f7673b57.jpg",
+        url: "https://i.pinimg.com/1200x/22/4f/65/224f65718a341f08ef3a3c04551cb78b.jpg",
         width: 1200,
         height: 630,
         alt: "Luxury car in showroom",
@@ -80,15 +77,11 @@ export const metadata: Metadata = {
     ],
   },
 };
-const ProductPage = async () => {
-  const  data:CarData[] = await FetchCar(0,5)
-  console.log(data)
+export default function page() {
   return (
     <div>
-      {/* <SWRComponent/> */}
-      <DisplayProductComponent tagline={'Latest Updates'} heading={'New Comming'} description={'Discover the latest trends, tips, and best practices in modern web development. From UI components to design systems, stay updated with our expert insights.'} buttonText={'View all cars'} buttonUrl={''} posts={data}/>
+      <h1 className='text-3xl font-bold'>About Page</h1>
+      <p>This is about page</p>
     </div>
   )
 }
-
-export default ProductPage

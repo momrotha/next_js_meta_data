@@ -27,15 +27,14 @@ export const metadata: Metadata = {
   applicationName: "Next Fullstack Gen1",
   generator: "Next.js 15",
   authors: [
-    { name: "Chim SainaIna", url: "https://github.com/chimsaina" },
-    { name: "Mom Rotha", url: "https://rotha.dev" },
+    { name: "Mom Rotha", url: "https://github.com/momrotha/" },
   ],
   creator: "Next Fullstack Team",
   publisher: "Cambo Cloth Co., Ltd.",
   referrer: "origin-when-cross-origin",
 
   alternates: {
-    canonical: "https://next-fullstack-gen1.vercel.app",
+    canonical: "https://next-js-meta-data.vercel.app/",
     languages: {
       "en-US": "/",
       "km-KH": "/km",
