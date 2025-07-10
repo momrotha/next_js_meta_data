@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://i.pinimg.com/736x/46/a0/bf/46a0bf7b9d1e34d9bba263baab7c0f43.jpg",
+        url: "https://i.pinimg.com/736x/26/0b/bc/260bbc98f8ba433aeeb00425f1afd15d.jpg",
         width: 1200,
         height: 630,
         alt: "Luxury car in showroom",
@@ -86,16 +86,16 @@ export const metadata: Metadata = {
     ],
   },
 
-  // twitter: {
-  //   card: "summary_large_image",
-  //   site: "@nextfullstack",
-  //   creator: "@chimsaina",
-  //   title: "Car Selling | Next Fullstack Gen1",
-  //   description:
-  //     "A modern marketplace to buy and sell luxury cars in Cambodia.",
-  //   images:
-  //     "https://i.pinimg.com/736x/46/a0/bf/46a0bf7b9d1e34d9bba263baab7c0f43.jpg",
-  // },
+  twitter: {
+    card: "summary_large_image",
+    site: "@nextfullstack",
+    creator: "@chimsaina",
+    title: "Car Selling | Next Fullstack Gen1",
+    description:
+      "A modern marketplace to buy and sell luxury cars in Cambodia.",
+    images:
+      "https://i.pinimg.com/736x/26/0b/bc/260bbc98f8ba433aeeb00425f1afd15d.jpg",
+  },
 };
 
 
