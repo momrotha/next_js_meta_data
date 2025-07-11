@@ -1,12 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   compiler: {
     styledComponents: true,
   },
   eslint: {
-    ignoreDuringBuilds: true
+    ignoreDuringBuilds: true,
   },
   images: {
     remotePatterns: [
@@ -20,13 +19,18 @@ const nextConfig: NextConfig = {
         hostname: 'car-nextjs-api.cheatdev.online',
         pathname: '/uploads/**',
       },
-        {
+      {
         protocol: 'http',
         hostname: 'localhost',
         pathname: '/uploads/**',
-      }
-    ]
-  }
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.pinimg.com',
+        pathname: '/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
